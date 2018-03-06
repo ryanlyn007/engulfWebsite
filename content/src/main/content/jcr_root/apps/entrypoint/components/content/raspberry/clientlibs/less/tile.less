@@ -1,0 +1,40 @@
+.flip-container {
+	perspective: 1000px;
+	width: 320px;
+	min-height: 100px;
+	&:hover {
+		.flipper {
+			transform: rotateY(180deg);
+		}
+	}
+    .flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
+        .front {
+            width: 320px;
+            min-height: 100px;
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            transform: rotateY(0deg);
+        }
+        .back {
+            width: 320px;
+            min-height: 100px;
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotateY(180deg);
+        }
+
+        #loggingOutput {
+            width: 320px;
+            min-height: 100px;
+        }
+    }
+}
+

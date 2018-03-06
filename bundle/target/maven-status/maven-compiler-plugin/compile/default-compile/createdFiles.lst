@@ -1,0 +1,4 @@
+com/gulf/corporation/HelloService.class
+com/gulf/corporation/impl/filters/LoggingFilter.class
+com/gulf/corporation/impl/HelloServiceImpl.class
+com/gulf/corporation/package-info.class

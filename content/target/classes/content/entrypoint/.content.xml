@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/entrypoint/settings/wcm/templates/.*]"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2018-01-20T22:47:23.092+11:00"
+        cq:lastModifiedBy="admin"
+        cq:siteOwner="admin"
+        cq:template="/conf/entrypoint/settings/wcm/templates/redirect-page"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="EntryPoint"
+        sling:resourceType="entrypoint/components/structure/page"
+        navRoot="{Boolean}true"/>
+    <Projects/>
+</jcr:root>

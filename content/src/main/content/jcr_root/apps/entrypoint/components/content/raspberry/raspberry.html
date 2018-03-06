@@ -1,0 +1,29 @@
+<div data-sly-test="${wcmmode.edit}">
+    edit raspberry
+</div>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories=['clientlib-component-raspberry']}"/>
+
+<div data-unique="${properties.raspberryunique}">
+    <div class="flip-container" style="position:relative;min-height:${properties.raspberryheight@context='styleToken'}px; max-width:${properties.raspberrywidth@context='styleToken'}px; margin: 0px auto;">
+        <div class="flipper">
+            <div class="front" id="offline">
+                <div id="isRaspberryConnected"></div>
+                <div>Number of Line Display ${properties.numberOfLineDisplay}</div>
+                <div id="loggingOutput"></div>
+            </div>
+            <div class="back">
+                <div data-raspberrysocketurl="${properties.raspberryurl}"
+                     data-raspberrycontinuescheck="${properties.raspberrycontinuescheck}"
+                     data-numberoflinedisplay="${properties.numberOfLineDisplay}">
+                            ${properties.raspberryurl}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+<!-- clientlib -->
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.js @ categories=['clientlib-component-raspberry']}"/>

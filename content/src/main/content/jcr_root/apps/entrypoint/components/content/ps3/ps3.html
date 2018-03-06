@@ -1,0 +1,29 @@
+<div data-sly-test="${wcmmode.edit}">
+    edit PS3
+</div>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories=['clientlib-component-ps3']}"/>
+
+<div data-unique="${properties.ps3unique}">
+    <div class="flip-container" style="position:relative;min-height:${properties.ps3height@context='styleToken'}px; max-width:${properties.ps3width@context='styleToken'}px; margin: 0px auto;">
+        <div class="flipper">
+            <div class="front">
+                <div id="isPs3Connected"></div>
+                <div>Number of Line Display ${properties.ps3numberOfLineDisplay}</div>
+                <div id="ps3loggingOutput"></div>
+            </div>
+            <div class="back">
+                <div data-ps3socketurl="${properties.ps3url}"
+                     data-ps3continuescheck="${properties.ps3continuescheck}"
+                     data-ps3numberOfLineDisplay="${properties.ps3numberOfLineDisplay}">
+                            ${properties.ps3url}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+<!-- clientlib -->
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.js @ categories=['entrypoint.base','clientlib-component-ps3']}"/>

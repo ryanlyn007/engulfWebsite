@@ -1,0 +1,20 @@
+<div data-sly-test="${wcmmode.edit}">
+    edit chartjs
+</div>
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories=['clientlib-component-chartjs']}"/>
+
+<div data-unique="unique_${properties.chartunique}">
+    <div id="isChartConnected"></div>
+    <div id="chartContainer" data-typeofchart="${properties.typeofchart}"
+                             data-chartjsurl="${properties.charturl}"
+                             data-chartcontinuescheck="${properties.chartcontinuescheck}"
+                             style="position:relative;min-height:${properties.chartjsheight@context='styleToken'}px; max-width:${properties.chartjswidth@context='styleToken'}px; margin: 0px auto;">
+    </div>
+</div>
+<!-- library -->
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<!-- clientlib -->
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.js @ categories=['clientlib-component-chartjs']}"/>

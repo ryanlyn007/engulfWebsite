@@ -1,0 +1,5 @@
+#base=js
+canvasjs.min.js
+jquery.canvasjs.min.js
+chartjsload.js
+
