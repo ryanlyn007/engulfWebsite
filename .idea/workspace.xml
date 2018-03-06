@@ -21,8 +21,8 @@
       <file leaf-file-name="setup.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/entrypoint/components/content/googlehome/clientlibs/js/setup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="73">
+              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -140,9 +140,9 @@
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/entrypoint/components/content/googlehome/_cq_dialog/.content.xml" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/entrypoint/components/content/googlehome/clientlibs/less/tile.less" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/entrypoint/components/content/googlehome/googlehome.html" />
-        <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/entrypoint/components/content/googlehome/clientlibs/js/setup.js" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/entrypoint/components/content/googlehome/clientlibs/js.txt" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/entrypoint/components/content/googlehome/clientlibs/js/loggingOutput.js" />
+        <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/entrypoint/components/content/googlehome/clientlibs/js/setup.js" />
       </list>
     </option>
   </component>
@@ -1172,7 +1172,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="23" width="1370" height="788" extended-state="1" />
+    <frame x="70" y="23" width="1370" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1647,8 +1647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/entrypoint/components/content/googlehome/clientlibs/js/setup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="73">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding />
         </state>
       </provider>
