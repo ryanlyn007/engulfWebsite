@@ -39,8 +39,6 @@ RASPBERRY.setup.run = {
 
     initial: function(thisOne) { //initialize
         RASPBERRY.setup.library.setDisconnected();
-        RASPBERRY.setup.run.socket.emit('example-ping', { duration: 2 });
-        RASPBERRY.setup.library.getRootNode();
         this.listener();
         this.polling();
     },

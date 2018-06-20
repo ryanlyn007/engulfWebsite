@@ -30,7 +30,7 @@ GOOGLEHOME.setup.library = {
         $("#isGoogleHomeConnected").attr('class', '').addClass("square red");
     }
 };
- 
+
 GOOGLEHOME.setup.run = {
 
     dataSet: GOOGLEHOME.setup.run.dataSet || {},

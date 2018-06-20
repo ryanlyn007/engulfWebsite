@@ -89,8 +89,7 @@ CHARTJS.setup.run = {
         $.ajax({
             type:"POST",
             url:CHARTJS.setup.library.getChartJsURL(),    //http://raspberrypi.local:5000/endpoint
-            data:{},
-            contentType:"application/json; charset=utf-8",
+            data:{}
         })
         .success(function(data) {
             CHARTJS.setup.library.setConnected();
