@@ -1,0 +1,23 @@
+ryan007 testing
+<div data-sly-test="${wcmmode.edit}">
+    edit mulitlist within multilist
+</div>
+
+<div>
+    <div>Dashboard: ${properties.ukDashboard}</div>
+
+    <div>1: Page Name: ${properties.page}</div>
+    <div>1: Select Path: ${properties.path}</div>
+
+    <sly data-sly-use.listUse="${'listcollection.js' @ multifieldName='components'}">
+        <ul data-sly-list="${listUse}">
+            <li><a href="${item.properties.linkUrl}">${item.properties.linkText}</a></li>
+        </ul>
+    </sly>
+    <sly data-sly-use.listUse="${'listcollection.js' @ multifieldName='items2'}">
+        <ul data-sly-list="${listUse}">
+            <li><a href="${item.properties.linkUrl}">${item.properties.linkText}</a></li>
+        </ul>
+    </sly>
+
+</div>
