@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/apps/entrypoint"/>
+    <filter root="/apps/library"/>
     <filter root="/conf/entrypoint"/>
 </workspaceFilter>
